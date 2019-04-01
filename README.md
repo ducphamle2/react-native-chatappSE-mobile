@@ -37,7 +37,7 @@ Còn không thì đọc bên dưới:
     Configure ANDROID_HOME thì đọc trong này là ez https://facebook.github.io/react-native/docs/getting-started.html
     
  4. chạy react-native project:
-    Mỗi project đều có các node modules riêng của nó (node modules kiểu các libraries import vào) thì mỗi lần add modules (ví dụ add module react-native-i18n) thì sẽ npm install module đó. Còn với 1 project pull từ git về sẽ k có node modules và phải install qua: npm install (vào thư mục project)
+    Mỗi project đều có các node modules riêng của nó (node modules kiểu các libraries import vào) thì mỗi lần add modules (ví dụ add module react-native-i18n) thì sẽ npm install module đó. Còn với 1 project pull từ git về sẽ k có node modules và phải install qua: npm install (vào thư mục project). Ngoai ra phai link cac modules vao project qua: react-native link. Neu add them thi type: react-native link <module-name-here>. Possible error: add them 1 module nhung lai dung react-native link => ez to get error.
     
     Để chạy thì cần cắm đt vào or tạo 1 máy ảo (emulator). Cái này tôi suggest tải genymotion về để tạo và chạy máy ảo, vì cái android emulator rất tù và hay lỗi, và giật tung đít nên đừng dùng =)).
     Để connect emulator với app, thì cần install 'adb'. Cách cài trong này: https://www.how2shout.com/how-to/install-adb-on-windows-108-7-linux-command-line.html
